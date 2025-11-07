@@ -1,0 +1,27 @@
+{
+  "name": "take-home-test",
+  "version": "1.0.0",
+  "description": "Test Kemampuan Backend Programmer",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haidar Fahmi Abdillah",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment-timezone": "^0.6.0",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3",
+    "validator": "^13.15.20"
+  }
+}
