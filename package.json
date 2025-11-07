@@ -4,6 +4,7 @@
   "description": "Test Kemampuan Backend Programmer",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
