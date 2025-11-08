@@ -195,7 +195,7 @@ class Controller {
             fs.unlinkSync(filePath);
           }
         }
-        imageUrl = `https://assignment-api-programmer-production.up.railway.app/${req.file.filename}`;
+        imageUrl = `https://assignment-api-programmer-production.up.railway.app/profileImage/${req.file.filename}`;
       }
 
       const updateUser = `
